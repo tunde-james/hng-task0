@@ -5,7 +5,7 @@ const getUser = async (req: Request, res: Response) => {
     const response = {
       email: 'tundejames04@gmail.com',
       current_datetime: new Date().toISOString(),
-      github_url: 'https://github.com/yourusername/your-repo',
+      github_url: 'https://github.com/tunde-james/hng-task0',
     };
 
     res.status(200).json(response);

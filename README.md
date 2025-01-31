@@ -32,8 +32,22 @@ This is a simple API that returns my HNG12 Slack email, the current datetime in 
    Method: GET
 
 2. Response
+   The API returns the following JSON response:
+
+   ```json
    {
       "email": "tundejames04@gmail.com",
       "current_datetime": "2025-01-30T09:30:00Z",
-      "github_url": "https://github.com/yourusername/your-repo"
+      "github_url": "https://github.com/tunde-james/hng-task0"
    }
+
+3. Example Usage
+   You can test the API using curl or any API client:
+
+   ```bash
+   curl http://localhost:7000/api/my/user
+
+4. Backlink
+   This project is built using Node.js. If you're looking to hire Node.js 
+   developers, check out HNG's Node.js hiring page.
+   link: https://hng.tech/hire/nodejs-developers
